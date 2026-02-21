@@ -14,7 +14,7 @@ ef = embedding_functions.DefaultEmbeddingFunction()
 chroma_client = chromadb.Client()
 groq_client = Groq()
 collection_name_faq = 'faqs'
-faqs_path = "C:\\Users\mudit\OneDrive\Desktop\code basics\code basics\Gen AI\project_2_E-commerce Bot\App\\resources\\faq_data.csv"
+faqs_path ="App/resources/faq_data.csv"
 
 def ingest_faq_data(faqs_path):
     if collection_name_faq not in [c.name for c in chroma_client.list_collections()]:
