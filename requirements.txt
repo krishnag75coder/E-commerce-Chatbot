@@ -3,5 +3,5 @@ pandas==2.3.3
 pandasql==0.7.3
 python-dotenv==1.2.1
 groq==0.37.1
-semantic-router==0.1.12
+semantic-router[local]
 chromadb==1.5.0
