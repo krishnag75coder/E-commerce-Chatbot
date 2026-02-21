@@ -3,7 +3,8 @@ pandas==2.3.3
 pandasql==0.7.3
 python-dotenv==1.2.1
 groq==0.37.1
-torch
-transformers
-sentence-transformers
+torch==2.9.1
+transformers==5.2.0
+sentence-transformers==5.2.3
+semantic-router==0.1.12
 chromadb==1.5.0
